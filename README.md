@@ -8,23 +8,23 @@
 ║              ╚██████╔╝███████╗██║   ██║██║ ╚═╝ ██║██║  ██║   ██║   
 ║               ╚═════╝ ╚══════╝╚═╝   ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝   ╚═╝   
 ║                                                                   ║
-║                    ULTIMATE NUKE v3.5                              ║
+║                         ULTIMATE v3.5                              ║
 ║         Copyright (c) 2026 Khazix & Daniel-191                    ║
 ║              All Rights Reserved                                  ║
 ║                                                                   ║
 ╚═══════════════════════════════════════════════════════════════════╝
 -->
 
-# 💀 ULTIMATE NUKE v3.5
+# 💀 ULTIMATE v3.5
 
 <div align="center">
 
-[![GitHub stars](https://img.shields.io/github/stars/Khazix/Ultimate-Nuke?style=for-the-badge&color=ff0000)](https://github.com/Khazix/Ultimate-Nuke/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/Khazix/Ultimate-Nuke?style=for-the-badge&color=ff6600)](https://github.com/Khazix/Ultimate-Nuke/network)
-[![GitHub issues](https://img.shields.io/github/issues/Khazix/Ultimate-Nuke?style=for-the-badge&color=ffcc00)](https://github.com/Khazix/Ultimate-Nuke/issues)
+[![GitHub stars](https://img.shields.io/github/stars/khazix-911/ULTIMATE-NUKER?style=for-the-badge&color=ff0000)](https://github.com/khazix-911/ULTIMATE-NUKER/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/khazix-911/ULTIMATE-NUKER?style=for-the-badge&color=ff6600)](https://github.com/khazix-911/ULTIMATE-NUKER/network)
+[![GitHub issues](https://img.shields.io/github/issues/khazix-911/ULTIMATE-NUKER?style=for-the-badge&color=ffcc00)](https://github.com/khazix-911/ULTIMATE-NUKER/issues)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)](https://www.python.org/)
 [![Discord.py](https://img.shields.io/badge/Discord.py-2.3.0%2B-5865F2?style=for-the-badge&logo=discord)](https://github.com/Rapptz/discord.py)
-[![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-red?style=for-the-badge)](https://github.com/Khazix/Ultimate-Nuke)
+[![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-red?style=for-the-badge)](https://github.com/khazix-911/ULTIMATE-NUKER)
 
 </div>
 
@@ -32,7 +32,7 @@
 
 ## 🚀 Overview
 
-**ULTIMATE NUKE v3.5** is the most powerful and comprehensive Discord tool ever created. It combines the **lightning-fast speed** of SOViets with the **modular system** of Daniel-191 and the **beautiful interface** of VOID-NUKE.
+**ULTIMATE v3.5** is the most powerful and comprehensive Discord tool ever created. It combines the **lightning-fast speed** of SOViets with the **modular system** of Daniel-191 and the **beautiful interface** of VOID-NUKE.
 
 ### ✨ What Makes It Special?
 
@@ -135,8 +135,8 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/Khazix/Ultimate-Nuke.git
-cd Ultimate-Nuke
+git clone https://github.com/khazix-911/ULTIMATE-NUKER.git
+cd ULTIMATE-NUKER
 
 # Install dependencies
 pip install -r requirements.txt
@@ -150,7 +150,7 @@ pip install discord.py aiohttp colorama
 📝 config.py Structure
 python
 # ============================================================
-# ULTIMATE NUKE v3.5 - Configuration
+# ULTIMATE v3.5 - Configuration
 # Copyright (c) 2026 Khazix & Daniel-191
 # ============================================================
 
@@ -175,7 +175,7 @@ RATE_LIMIT_DELAY = 0
 
 # 🎨 Server Settings
 SERVER_CONFIG = {
-    "new_name": "💀 DESTROYED BY ULTIMATE NUKE",
+    "new_name": "💀 DESTROYED BY ULTIMATE",
     "new_icon": "https://example.com/icon.png",
     "new_description": "Khazix & Daniel-191 © 2026"
 }
@@ -221,7 +221,7 @@ Key	Function
 Enter	Continue after viewing results
 📁 File Structure
 text
-Ultimate-Nuke/
+ULTIMATE-NUKER/
 │
 ├── 📄 main.py              # Main program file
 ├── 📄 config.py            # Configuration file
@@ -331,7 +331,7 @@ text
 text
 [?] Choose: 19
 [?] Messages per channel (0 = infinite): 0
-[?] Message: 💀 ULTIMATE NUKE
+[?] Message: 💀 ULTIMATE
 [!] Infinite spam activated!
 [+] Sent 100 messages...
 [+] Sent 200 messages...
@@ -345,7 +345,7 @@ All Rights Reserved
 👥 Credits
 👑 Lead Developer
 Role	Name	GitHub
-Lead Developer	Khazix	@Khazix
+Lead Developer	Khazix	@khazix-911
 ⚡ Co-Developer
 Role	Name	GitHub
 Co-Developer	Daniel-191	@Daniel-191
@@ -356,13 +356,10 @@ VOID-NUKE	void (1s0e)
 Daniel-191 Nuke Bot	Daniel-191
 📞 Contact & Support
 Platform	Link
-💬 Discord	Join Server
+💬 Discord Server	Join Server
+👤 Discord User	v2o0
 🐙 GitHub	Repository
+🔫 GUNS.LOL	khazix.exe
 🐛 Issues	Report Bug
 ⭐ Star	Star Repository
 <div align="center">
-⭐ Star this repository if you found it useful!
-Made with ❤️ by Khazix & Daniel-191
-© 2026 All Rights Reserved
-
-</div> ```
