@@ -1,149 +1,96 @@
 # ============================================================
-# ULTIMATE NUKE v3.5 - Configuration File
-# Copyright (c) 2026 Khazix & Daniel-191
+# K.H.X NUKER v1.0 - Settings File
+# Copyright (c) 2026 Khazix-911
 # All Rights Reserved
 # ============================================================
+# ⚠️ IMPORTANT:
+# This tool is for EDUCATIONAL PURPOSES only.
+# Redistribution, selling, or modification is STRICTLY PROHIBITED.
+# ============================================================
 
 # ============================================================
-# صورة النيوك (ضعها في نفس مجلد السكريبت)
+# 1. Server Icon
 # ============================================================
-NUKE_ICON_URL = "1991.png"
+# Put your image file name here (must be in the same folder)
+# Example: "my-icon.png"
+NUKE_ICON_URL = ""
 
 # ============================================================
-# إعدادات الرسالة المضمنة (Embed)
+# 2. Embedded Message (The fancy message sent to channels)
 # ============================================================
 EMBED_CONFIG = {
-    "title": "💀 ULTIMATE NUKE | Khazix & Daniel-191",
-    "description": "**This server has been destroyed by ULTIMATE NUKE**\n\n> github.com/Khazix/Ultimate-Nuke\n> github.com/Daniel-191/Nuke-Bot",
-    "color": 0xFF0000,
-    "fields": [
-        {"name": "👑 Developer", "value": "**Khazix**", "inline": True},
-        {"name": "⚡ Co-Developer", "value": "**Daniel-191**", "inline": True},
-        {"name": "💀 Tool", "value": "**ULTIMATE NUKE v3.5**", "inline": True},
-        {"name": "📅 Year", "value": "**2026**", "inline": True},
-    ],
-    "image": "https://cdn.discordapp.com/attachments/1491728792031465502/1491754699039309966/89b10b4ef9b1f67997a9b14073d6fd0c.jpg",
-    "footer": "Khazix & Daniel-191 © 2026",
-    "message": "||@everyone||  **💀 ULTIMATE NUKE | Khazix & Daniel-191 © 2026**",
+    "title": "",  # Big bold text at the top
+    "description": "",  # Main message text
+    "color": 0xFF0000,  # Color of the embed (red by default)
+    "fields": [],  # Small boxes with text (leave empty)
+    "image": "",  # Image URL to show in the embed
+    "footer": "",  # Small text at the bottom
+    "message": "",  # Extra text before the embed
 }
 
 # ============================================================
-# إعدادات تغيير السيرفر
+# 3. Server Changes (Rename, Change Icon, Change Description)
 # ============================================================
 SERVER_CONFIG = {
-    "new_name": "🖤│𝙆̷̛̤h̶̢̦a̷̢̳z̷̢̼i̶̢̤x̷̢̦‎𝙍̷̢̳o̶̢̦o̷̢̼t̷̢̤//𝘿̷̛̤e̶̢̦s̷̢̳t̷̢̼r̶̢̤o̷̢̦y̴̢̳e̶̢̤d̷̢̳.exe",
-    "new_icon": "https://cdn.discordapp.com/attachments/1491728792031465502/1491754699039309966/89b10b4ef9b1f67997a9b14073d6fd0c.jpg",
-    "new_description": """# 🖤 𝘿̷𝙀̷𝙎̷𝙏̷𝙍̷𝙊̷𝙔̷𝙀̷𝘿̷ — ⟦☠️⟧ — 𝘽̷𝙔̷ 𝙎̷𝙊̷𝙑̷𝙄̷𝙀̷𝙏̷𝙎̷ :: #1991
-# ⛧⛧⛧ 𝙎̷𝙀̷𝙍̷𝙑̷𝙀̷𝙍̷ 𝘿̷𝙀̷𝘼̷𝘿̷ ⛧⛧⛧
-# ⛓️ @everyone  𝙘̷̛̤𝙤̷̢̳𝙧̷̢̼𝙧̷̢̦𝙪̷̢̳𝙥̷̢̤𝙩̷̢̦𝙚̷̢̼𝙙̷ :: 𝙚̷𝙫̷𝙖̷̙𝙘̷𝙪̷𝙖̷𝙩̷𝙞̷𝙤̷𝙣̷
-# 🕳️ @here 𝙘̷̛̤𝙝̷̢̳𝙖̷̢̼𝙣̷̢̦𝙣̷̢̳𝙚̷̢̤𝙡̷𝙨̷ :: 𝙙̷̛̤𝙚̷̢̳𝙡̷̢̼𝙚̷̢̦𝙩̷̢̳𝙞̷𝙣̷𝙜̷
-# ☢︎ 𝙪̷̛̤𝙨̷̢̳𝙚̷̢̼𝙧̷𝙨̷ :: 𝙗̷𝙖̷̙𝙣̷𝙣̷𝙚̷𝙙̷
-# 𓂀 𝙧̷̢̳𝙤̷̢̼𝙤̷̢̦𝙩̷ :: 𝙡̷𝙤̷𝙨̷𝙩̷
-# ⟦🕳️⟧ 𝙙̷̛̤𝙖̷̢̳𝙩̷̢̼𝙖̷ :: 𝙬̷̛̤𝙞̷̢̳𝙥̷̢̼𝙚̷̢̦𝙙̷
-# ☠︎︎ 𝙎̷𝙊̷𝙑̷𝙄̷𝙀̷𝙏̷𝙎̷ 𝙒̷𝘼̷𝙎̷ 𝙃̷𝙀̷𝙍̷𝙀̷ E̷E̷E̷E̷E̷E̷E̷E̷E̷…
-#  🔗 ☠️  https://discord.gg/gp4pf7ARWX  ☠️""",
+    "new_name": "",  # New server name
+    "new_icon": "",  # New server icon (image URL)
+    "new_description": "",  # New server description (shown at the top)
 }
 
 # ============================================================
-# إعدادات الوب هوك
+# 4. Webhook Settings
 # ============================================================
-WEBHOOK_CONFIG = {"default_name": "ULTIMATE NUKE | Khazix & Daniel-191"}
+WEBHOOK_CONFIG = {"default_name": ""}  # Name that appears on webhook messages
 
 # ============================================================
-# إعدادات الهجوم التلقائي
+# 5. Auto Raid Settings (Automatic attack)
 # ============================================================
 AUTO_RAID_CONFIG = {
-    "num_channels": 30,
-    "channel_type": "text",
-    "channel_name": "destroyed-by-ultimate-nuke",
-    "num_messages": 1000,
-    "message_content": """# 🖤 𝘿̷𝙀̷𝙎̷𝙏̷𝙍̷𝙊̷𝙔̷𝙀̷𝘿̷ — ⟦☠️⟧ — 𝘽̷𝙔̷ 𝙎̷𝙊̷𝙑̷𝙄̷𝙀̷𝙏̷𝙎̷ :: #1991
-# ⛧⛧⛧ 𝙎̷𝙀̷𝙍̷𝙑̷𝙀̷𝙍̷ 𝘿̷𝙀̷𝘼̷𝘿̷ ⛧⛧⛧
-# ⛓️ @everyone  𝙘̷̛̤𝙤̷̢̳𝙧̷̢̼𝙧̷̢̦𝙪̷̢̳𝙥̷̢̤𝙩̷̢̦𝙚̷̢̼𝙙̷ :: 𝙚̷𝙫̷𝙖̷̙𝙘̷𝙪̷𝙖̷𝙩̷𝙞̷𝙤̷𝙣̷
-# 🕳️ @here 𝙘̷̛̤𝙝̷̢̳𝙖̷̢̼𝙣̷̢̦𝙣̷̢̳𝙚̷̢̤𝙡̷𝙨̷ :: 𝙙̷̛̤𝙚̷̢̳𝙡̷̢̼𝙚̷̢̦𝙩̷̢̳𝙞̷𝙣̷𝙜̷
-# ☢︎ 𝙪̷̛̤𝙨̷̢̳𝙚̷̢̼𝙧̷𝙨̷ :: 𝙗̷𝙖̷̙𝙣̷𝙣̷𝙚̷𝙙̷
-# 𓂀 𝙧̷̢̳𝙤̷̢̼𝙤̷̢̦𝙩̷ :: 𝙡̷𝙤̷𝙨̷𝙩̷
-# ⟦🕳️⟧ 𝙙̷̛̤𝙖̷̢̳𝙩̷̢̼𝙖̷ :: 𝙬̷̛̤𝙞̷̢̳𝙥̷̢̼𝙚̷̢̦𝙙̷
-# ☠︎︎ 𝙎̷𝙊̷𝙑̷𝙄̷𝙀̷𝙏̷𝙎̷ 𝙒̷𝘼̷𝙎̷ 𝙃̷𝙀̷𝙍̷𝙀̷ E̷E̷E̷E̷E̷E̷E̷E̷E̷…
-#  🔗 ☠️  https://discord.gg/gp4pf7ARWX  ☠️""",
+    "num_channels": 20,  # How many channels to create
+    "channel_type": "text",  # "text" or "voice"
+    "channel_name": "name",  # Name of the new channels
+    "num_messages": 5,  # How many messages to send per channel
+    "message_content": "test @here @everyone",  # The message to send
 }
 
 # ============================================================
-# الأعضاء المحميون (لن يتم حظرهم أو طردهم)
+# 6. Protected Members (These users will NOT be banned/kicked)
 # ============================================================
-NO_BAN_KICK_ID = [
-    1278705397057716254,
-    974966156865708052,
-    1141684410257780836,
-    1391672472088084480,
-    698387820552912926,
-    1496635443783929888,
-]
+# Put Discord User IDs here, separated by commas
+# Example: [123456789, 987654321]
+NO_BAN_KICK_ID = []
 
 # ============================================================
-# أعضاء سيتم منحهم رتبة الأدمن تلقائياً
+# 7. Admin Members (These users will get admin role)
 # ============================================================
-ADMIN_IDS = [
-    1278705397057716254,
-    974966156865708052,
-    1141684410257780836,
-    1391672472088084480,
-    698387820552912926,
-    1496635443783929888,
-]
+# Put Discord User IDs here
+ADMIN_IDS = []
 
 # ============================================================
-# إعدادات تواجد البوت
+# 8. Bot Status (What appears under the bot's name)
 # ============================================================
-BOT_PRESENCE = {"type": "dnd", "text": "ULTIMATE NUKE | Khazix & Daniel-191"}
+BOT_PRESENCE = {"type": "playing", "text": ""}  # "watching", "listening", "playing"
 
 # ============================================================
-# إعدادات الأداء
+# 9. Performance Settings
 # ============================================================
-RATE_LIMIT_DELAY = 0
-MAX_CONCURRENT_TASKS = 1000
+RATE_LIMIT_DELAY = 0  # Wait time between actions (0 = fastest)
+MAX_CONCURRENT_TASKS = 100  # How many things to do at once
 
 # ============================================================
-# إعدادات القنوات المتعددة (بنفس الأسماء القديمة)
+# 10. Channel Names (For creating multiple channels with different names)  (its very important btw :)
 # ============================================================
 CHANNELS_CONFIG = {
     "names": [
-        "👁️│𝙆̷̛̤h̶̢̦a̷̢̳z̷̢̼i̶̢̤x̷̢̦‎𝙙̷̢̳e̷̢̤s̷̢̼ț̷̢r̶̢̤o̷̢̦y̴̢̳e̶̢̤r̷̢̼",
-        "☠️│𝙎̷̢̦o̶̢̳v̷̢̼i̶̢̤e̷̢̳ț̴̢s̷̢̼",
-        "🕷️│𝙍̷̢̦a̶̢̳i̷̢̼d̶̢̤‎𝙗̷̢̦y̴̢̳‎𝙎̷̢̦o̶̢̳v̷̢̼i̶̢̤e̷̢̳ț̴̢s̷̢̼",
-        "⚠️│𝙉̷̢̦u̶̢̳k̷̢̼e̶̢̤d̷̢̳‎𝙗̷̢̦y̴̢̳‎𝙎̷̢̦o̶̢̳v̷̢̼i̶̢̤e̷̢̳ț̴̢s̷̢̼",
-        "🖤│𝘿̷̛̤e̶̢̦s̷̢̳t̷̢̼r̶̢̤o̷̢̦y̴̢̳e̶̢̤d̷̢̳‎𝙗̷̢̦y̴̢̳‎𝙎̷̢̦o̶̢̳v̷̢̼i̶̢̤e̷̢̳ț̴̢s̷̢̼",
-    ],
+        "name",
+        "name",
+        "name",
+        "name",
+        "name",
+    ]
 }
 
 # ============================================================
-# إعدادات الرومات المتعددة (بنفس الأسماء القديمة)
+# 11. Role Names (For creating multiple roles)
 # ============================================================
-ROLES_CONFIG = {
-    "names": ["SOVIET", "OWNER", "ADMIN", "VIP", "RAIDED"],
-}
-
-# ============================================================
-# إعدادات الصلاحيات (للكود الجديد)
-# ============================================================
-OWNER_IDS = [
-    1278705397057716254,  # Khazix
-]
-
-WHITELIST_IDS = [
-    1278705397057716254,
-    974966156865708052,
-    1141684410257780836,
-    1391672472088084480,
-    698387820552912926,
-    1496635443783929888,
-]
-
-# ============================================================
-# إعدادات البوت
-# ============================================================
-PREFIX = "."
-LANGUAGE = "en"
-MAX_RETRIES = 20
-PUBLIC_MESSAGE = "||@everyone||  **💀 ULTIMATE NUKE | Khazix & Daniel-191 © 2026**"
-RAID_NAME = "ultimate-nuke"
+ROLES_CONFIG = {"names": []}  # Example: ["Admin", "Mod", "VIP"]
