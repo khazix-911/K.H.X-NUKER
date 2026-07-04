@@ -20,7 +20,7 @@
 
 ## 🚀 Overview
 
-**K.H.X-NUKER** is a high-performance Discord server management and automation tool built with Python. It specializes in parallel execution for ultra-fast raiding, server nuking, and bulk operations like mass ban, channel creation, and webhook spam.
+**K.H.X-NUKER v1.0** is a lightning-fast Discord automation tool built with Python and powered by parallel execution. Unlike traditional nukers, it leverages asyncio.gather for ultra-low latency and massive concurrency, making it ideal for high-speed server raiding, bulk member management (ban/kick), channel flooding, and webhook spam. Designed for educational testing and server stress evaluation, it features a smart rate limiter that automatically handles Discord's API restrictions, ensuring maximum uptime and minimal failures.
 
 **⚠️ IMPORTANT: This tool is for EDUCATIONAL PURPOSES only. Unauthorized use on servers you don't own is strictly prohibited.**
 
