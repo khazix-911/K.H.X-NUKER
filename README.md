@@ -109,7 +109,7 @@ python main.py
 ### 📦 Manual Installation
 
 ```bash
-pip install discord.py aiohttp pystyle
+pip install discord.py aiohttp pystyle requests
 ```
 
 ---
